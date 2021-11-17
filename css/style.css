@@ -4,10 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
-   font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+   font-family: 'Whitney', 'Helvetica Neue', 'Helvetica','Arial, sans-serif';;
 }
 
 /* Utils */
@@ -21,6 +22,12 @@ body{
     display: table;
     content: '';
     clear: both;
+}
+
+/* Width class */
+
+.w-15{
+    width: 15%;
 }
 
 .w-20{
@@ -226,4 +233,63 @@ body{
     width: 100%;
     position: absolute;
     left: 0;
+}
+
+/* Footer */
+
+footer{
+    background-color: #23272A;
+    min-height: 700px;
+    margin-top: 150px;
+}
+
+.f-col{
+    float: left;
+    margin-top: 100px;
+}
+
+.text-blue{
+    color: #7289DA;
+}
+
+
+.f-col h2{
+    font-size: 2.3em;
+}
+
+.f-col li{
+    list-style-type: none;
+    height: 40px;
+    font-weight: bold;
+}
+
+.f-col a{
+    text-decoration: none;
+    color: white;
+}
+
+.f-col a:hover{
+    text-decoration: underline;
+    color: #7983F5;
+}
+
+a.text-blue{
+    font-size: 20px;
+}
+
+
+#logo-ita{
+    height: 20px;
+    margin: 20px 0;
+    vertical-align: middle;
+}
+
+.language{
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.social-margin{
+    margin-right: 10px;
 }
