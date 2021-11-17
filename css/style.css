@@ -61,9 +61,17 @@ body{
     color: black;
 }
 
+.btn.btn-white:hover{
+    color: #255EE9;
+}
+
 .btn.btn-dark{
     background-color: #23272A;
     color: white;
+}
+
+.btn.btn-dark:hover{
+    background-color: #36393f;
 }
 
 .btn.btn-small{
@@ -115,6 +123,10 @@ body{
     font-weight: 550;
     font-size: 17px;
     padding: 15px;
+}
+
+.main-nav a:hover{
+    text-decoration: underline;
 }
 
 /* Jumbotron */
