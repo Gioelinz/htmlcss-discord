@@ -7,7 +7,7 @@
 }
 
 body{
-   font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;; 
+   font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
 }
 
 /* Utils */
@@ -93,6 +93,16 @@ body{
     background-color: #36393f;
 }
 
+.btn.btn-blue{
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.btn.btn-blue:hover{
+    background-color: #7983F5;
+    color: black;
+}
+
 .btn.btn-small{
     padding: 10px 15px;
     border-radius: 20px;
@@ -128,9 +138,6 @@ body{
     float: left;
 }
 
-.main-nav{
-    
-}
 
 .main-nav ul li{
     display: inline-block;
@@ -172,12 +179,17 @@ body{
     font-size: 20px;
 }
 
-/* Main Sections */
+/* Main */
 
 .main-section{
     margin-bottom: 350px;
     margin-top: 150px;
 }
+
+.bottom-section{
+    position: relative;
+}
+
 
 .info-text{
     margin-top: 30px;
@@ -195,4 +207,23 @@ body{
     line-height: 30px;
 }
 
-#big-photo
+#big-photo{
+    width: 100%;
+}
+
+.container h3{
+    font-size: 2em;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.bg-stars{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
