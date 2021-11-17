@@ -27,6 +27,10 @@ body{
     width: 20%;
 }
 
+.w-30{
+    width: 30%;
+}
+
 .w-40{
     width: 40%;
 }
@@ -35,9 +39,10 @@ body{
     width: 60%;
 }
 
-.w-30{
-    width: 30%;
+.w-90{
+    width: 90%;
 }
+
 
 .text-center{
     text-align: center;
@@ -170,6 +175,8 @@ body{
 /* Main Sections */
 
 .main-section{
+    margin-bottom: 350px;
+    margin-top: 150px;
 }
 
 .info-text{
@@ -185,5 +192,7 @@ body{
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 30px;
-    line-height: 35px;
+    line-height: 30px;
 }
+
+#big-photo
