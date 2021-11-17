@@ -22,3 +22,10 @@ body{
     content: '';
     clear: both;
 }
+
+/* Topbar */
+
+.topbar{
+    background-color: #3161E0;
+    height: 80px;
+}
