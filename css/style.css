@@ -1,0 +1,24 @@
+/* Generics */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;; 
+}
+
+/* Utils */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    display: table;
+    content: '';
+    clear: both;
+}
