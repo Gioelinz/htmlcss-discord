@@ -126,7 +126,7 @@ body{
 
 /* Topbar */
 
-#logo{
+.logo{
     vertical-align: middle;
 }
 
@@ -239,7 +239,7 @@ body{
 
 footer{
     background-color: #23272A;
-    min-height: 700px;
+    min-height: 800px;
     margin-top: 150px;
 }
 
@@ -293,3 +293,21 @@ a.text-blue{
 .social-margin{
     margin-right: 10px;
 }
+
+
+/* Final Footer */
+
+.bottom-footer{
+    position: relative;
+    margin-top: 50px;
+}
+
+.bottom-footer a{
+    position: absolute;
+    right: 0;
+}
+
+footer .container:first-child{
+    border-bottom: 1px solid #7289DA;
+}
+
