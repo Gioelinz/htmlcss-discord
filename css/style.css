@@ -31,6 +31,10 @@ body{
     width: 20%;
 }
 
+.width-jumbo{
+    width: 40%;
+}
+
 .text-center{
     text-align: center;
 }
@@ -43,9 +47,13 @@ body{
     text-align: right;
 }
 
+.big-button{
+    margin-top: 40px;
+}
+
 .btn{
     text-decoration: none;
-    border-radius: 20px;
+    font-weight: 600;
 }
 
 .btn.btn-white{
@@ -53,8 +61,23 @@ body{
     color: black;
 }
 
+.btn.btn-dark{
+    background-color: #23272A;
+    color: white;
+}
+
 .btn.btn-small{
     padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.btn.btn-large{
+    padding: 18px 30px;
+    border-radius: 40px;
+}
+
+.btn-space{
+    margin-right: 30px;
 }
 
 /* Topbar */
@@ -63,10 +86,13 @@ body{
     vertical-align: middle;
 }
 
-.topbar{
-    background-color: #3161E0;
-    height: 80px;
+.main-bar{
     color: white;
+}
+
+.topbar{
+    background-color: #255EE9;
+    height: 80px;
     line-height: 80px;
 }
 
@@ -86,6 +112,31 @@ body{
 .main-nav a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 550;
+    font-size: 17px;
     padding: 15px;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-image: url(../img/jumbo.png);
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+}
+
+.jumbotron .container{
+    position: absolute;
+    top: 20%;
+    right: 30%;
+}
+
+.jumbotron h1{
+    font-size: 3.8em;
+    margin-bottom: 40px;
+}
+
+.jumbotron p{
+    font-size: 20px;
 }
