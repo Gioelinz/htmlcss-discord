@@ -24,6 +24,7 @@ body{
     clear: both;
 }
 
+
 /* Width class */
 
 .w-15{
@@ -222,6 +223,7 @@ body{
     font-size: 2em;
     margin-top: 35px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .bg-stars{
@@ -234,6 +236,43 @@ body{
     position: absolute;
     left: 0;
 }
+
+/* Waves section */
+
+.waves{
+   position: relative;
+}
+
+.bg-wave{
+    background-image: url(../img/wave.svg);
+    opacity: 5%;
+    height: 200px;
+    width: 100%;
+    top: -200px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.bg-bodywave{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #F3F3F3;
+    z-index: -1;
+}
+.waves-mir{
+    transform: rotate(180deg);
+    background-image: url(../img/wave.svg);
+    opacity: 5%;
+    height: 300px;
+    width: 100%;
+    bottom: -300px;
+    position: absolute;
+    z-index: -1;
+}
+
+
 
 /* Footer */
 
