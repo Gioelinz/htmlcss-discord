@@ -17,15 +17,75 @@ body{
     margin: 0 auto;
 }
 
-.clearfix{
+.clearfix::after{
     display: table;
     content: '';
     clear: both;
 }
 
+.w-60{
+    width: 60%;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.btn{
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn.btn-white{
+    background-color: #fff;
+    color: black;
+}
+
+.btn.btn-small{
+    padding: 10px 15px;
+}
+
 /* Topbar */
+
+#logo{
+    vertical-align: middle;
+}
 
 .topbar{
     background-color: #3161E0;
     height: 80px;
+    color: white;
+    line-height: 80px;
+}
+
+.col{
+    display: inline-block;
+    float: left;
+}
+
+.main-nav{
+    
+}
+
+.main-nav ul li{
+    display: inline-block;
+}
+
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
 }
